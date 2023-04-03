@@ -1,0 +1,14 @@
+.video {
+    scroll-snap-align: start;
+    position: relative;
+    /* overflow: clip; */
+}
+
+.video, .video__player {
+    height: 100%;
+    width: 100%;
+}
+
+.video__player {
+    object-fit: fill;
+}

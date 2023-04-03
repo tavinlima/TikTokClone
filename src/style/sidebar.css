@@ -1,0 +1,17 @@
+.sidebar {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    color: #fff;
+}
+
+.sidebar__options {
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 440px) {
+    .sidebar {
+        top: 46%;
+    }
+}
